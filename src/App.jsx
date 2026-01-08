@@ -2,12 +2,6 @@ import { useState } from 'react'
 import styled from 'styled-components'
 import './App.css'
 
-let StartFooter = styled.div`
-    background : #2eab20;
-    padding : 35px;
-    color : #eee;
-  `;
-
 function App() {
 
   return (
@@ -22,11 +16,13 @@ function Start() {
   return (
     <div className='center'>
       <div className='box'>
-        <div>SAIZE Image</div>
-        <div>イタリアンワイン＆カフェレストラン</div>
-        <div>サイゼリヤ</div>
-        <button>注文をはじめる</button>
-        <StartFooter>ⓒ2026 Saizeriya Co,. Ltd. All rights reserved.</StartFooter>
+        <header>いらっしゃいませ</header>
+        <img className='language' src="language.jpg" alt="language" style={{ width: 100, float: 'right' }} />
+        <img src="firstLogo.jpg" alt="logo" />
+        <div style={{ textAlign : 'center'}}>
+          <button className='orderButton'>注文をはじめる</button>
+        </div>
+        <div className='startFooter'>ⓒ2026 Saizeriya Co,. Ltd. All rights reserved.</div>
       </div>
     </div>
   )
