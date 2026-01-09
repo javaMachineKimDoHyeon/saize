@@ -31,7 +31,7 @@ header {
     flex-direction: column;
 }
 
-.orderButton {
+.startBtn {
     background: #bf261b;
     color: #eee;
     height: 60px;
@@ -48,4 +48,71 @@ header {
     color: #eee;
     font-size: 10px;
     margin-top: auto;
+}
+
+footer {
+    background: #2eab20;
+
+    margin-top: auto;
+}
+
+footer>button {
+    background: #eee;
+    height: 55px;
+    width: 60px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    color: gray;
+}
+
+.peopleBtnCenter {
+    margin-top: auto;
+}
+
+.orderBtnCenter {
+    margin-bottom: auto;
+}
+
+.peopleBtn {
+    background: #eee;
+    height: 120px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #2eab20;
+}
+
+.orderNumber {
+    height: 40px;
+    width: 75%;
+    border: solid 3px #2eab20;
+    margin-bottom: 10px;
+}
+
+
+.orderBtn {
+    background: #eee;
+    height: 45px;
+    width: 100px;
+    margin: 2px;
+    border-radius: 10px;
+    color: #2eab20;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.orderDelBtn {
+    background: #2eab20;
+    height: 45px;
+    width: 100px;
+    margin: 2px;
+    border-radius: 10px;
+    color: #eee;
+    font-weight: bold;
+    font-size: x-large;
 }
