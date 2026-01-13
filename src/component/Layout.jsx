@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Footer from "./Footer";
 
-function Layout() {
+export function Layout() {
     return (
         <div className="center">
             <div className="box">
@@ -12,4 +12,12 @@ function Layout() {
     );
 }
 
-export default Layout;
+export function LayoutNoFooter() {
+    return (
+        <div className="center">
+            <div className="box">
+                <Outlet />
+            </div>
+        </div>
+    );
+}

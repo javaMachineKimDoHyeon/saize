@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import styled from 'styled-components'
 import { Routes, Route, Link, useNavigate } from 'react-router-dom'
-import Layout from './component/Layout'
-import LayoutNoFooter from './component/LayoutNoFooter'
-import Start from './pages/Start'
-import NumberOfPeople from './pages/NumberOfPeople'
-import Order from './pages/Order'
+import { Layout, LayoutNoFooter } from './component/Layout'
+import { Start, NumberOfPeople, Order } from './pages'
+
+// import Start from './pages/Start'
+// import NumberOfPeople from './pages/NumberOfPeople'
+// import Order from './pages/Order'
 
 import './App.css'
 
