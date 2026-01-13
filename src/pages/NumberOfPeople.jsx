@@ -1,5 +1,3 @@
-import Footer from "../component/Footer";
-
 function NumberOfPeople() {
   return (
     <>

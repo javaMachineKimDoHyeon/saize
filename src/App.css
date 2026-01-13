@@ -17,7 +17,7 @@ header {
     font-weight: bold;
     margin-bottom: 0px;
 }
-
+/* --언어 변경-- */
 .language {
     margin-left: auto;
 }
@@ -30,7 +30,7 @@ header {
     display: flex;
     flex-direction: column;
 }
-
+/* --주문하기 버튼-- */
 .startBtn {
     background: #bf261b;
     color: #eee;
@@ -55,7 +55,7 @@ footer {
 
     margin-top: auto;
 }
-
+/* --푸터5개버튼-- */
 footer>button {
     background: #eee;
     height: 55px;
@@ -67,7 +67,7 @@ footer>button {
     font-weight: bold;
     color: gray;
 }
-
+/* --인원수페이지------ */
 .peopleBtnCenter {
     margin-top: auto;
 }
@@ -87,6 +87,10 @@ footer>button {
     color: #2eab20;
 }
 
+/* --인원수페이지------ */
+
+
+/* --주문하는 페이지------ */
 .orderNumber {
     height: 40px;
     width: 75%;
@@ -116,3 +120,48 @@ footer>button {
     font-weight: bold;
     font-size: x-large;
 }
+
+.DetailsCenter {
+    margin-top: 100px;
+}
+
+/* --주문하는 페이지------ */
+
+/* --주문상세 페이지------ */
+
+.countBtn {
+    background: #eee;
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    border: solid 3px #2eab20;
+}
+
+.countInput {
+    width: 60px;
+    height: 35px;
+    margin: 10px;
+}
+
+.detailsBtn {
+    width: 80px;
+    height: 50px;
+    background: #2eab20;
+    color: #eee;
+    border-radius: 15%;
+    font-weight: bold;
+    font-size: large;
+    margin: 10px;
+}
+
+.detailsBtn2 {
+    width: 180px;
+    height: 50px;
+    background: #bf261b;
+    color: #eee;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: large;
+}
+
+/* --주문상세 페이지------ */

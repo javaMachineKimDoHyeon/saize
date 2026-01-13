@@ -1,5 +1,3 @@
-import Footer from "../component/Footer";
-
 function Order() {
     return (
         <div>
