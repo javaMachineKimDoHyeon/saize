@@ -1,7 +1,7 @@
 function Order() {
     return (
         <div>
-            <header style={{marginBottom : 60 }}>メニューブックから番号を入力してください</header>
+            <header style={{ marginBottom: 60 }}>メニューブックから番号を入力してください</header>
             <img src="logo.jpg" alt="logo" style={{ width: 200, margin: 'auto' }} />
             <div className='orderBtnCenter'>
                 <div>
@@ -23,9 +23,9 @@ function Order() {
                     <button className='orderBtn'>9</button>
                 </div>
                 <div>
-                    <button className='orderBtn' style={{ backgroundColor: 'rgba(0,0,0,0)', border: 'none', color: 'rgba(0,0,0,0)' }}>1</button>
+                    <button className='orderDelBtn' style={{background : '#bf261b'}}>削除</button>
                     <button className='orderBtn'>0</button>
-                    <button className='orderDelBtn'>削除</button>
+                    <button className='orderDelBtn'>確認</button>
                 </div>
             </div>
 

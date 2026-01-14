@@ -4,12 +4,12 @@ function OrderDetails() {
             <header>数量を選択してください</header>
             <div className="DetailsCenter">
                 <div>
-                    <div>たっぷりコンのピザ</div>
-                    <div>400円</div>
+                    <div style={{display : 'inline-block', marginRight : 30}}>たっぷりコンのピザ</div>
+                    <div style={{display : 'inline-block', marginLeft : 30}}>400円</div>
                 </div>
                 <div>
                     <button className="countBtn">-</button>
-                    <input className="countInput" type="text" />
+                    <input className="countInput" type="text" value={1}/>
                     <button className="countBtn">+</button>
                 </div>
                 <div>

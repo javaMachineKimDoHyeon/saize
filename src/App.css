@@ -131,15 +131,15 @@ footer>button {
 
 .countBtn {
     background: #eee;
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+    width: 33px;
+    height: 33px;
+    border-radius: 15%;
     border: solid 3px #2eab20;
 }
 
 .countInput {
-    width: 60px;
-    height: 35px;
+    width: 40px;
+    height: 28px;
     margin: 10px;
 }
 
@@ -165,3 +165,36 @@ footer>button {
 }
 
 /* --주문상세 페이지------ */
+
+.itemBoxList {
+    background: #eee;
+    border: #2eab20 solid 1px;
+    border-radius: 10px;
+    width: 320px;
+    height: 350px;
+    margin: auto;
+    overflow: auto;
+}
+
+.basketDetail {
+    display: inline-block;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.basketBtn {
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    color: #eee;
+    font-weight: bold;
+    font-size: larger;
+    background: #2eab20;
+}
+
+.item {
+    background: white;
+    font-weight: 500;
+    font-size: x-large;
+}
