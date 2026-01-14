@@ -198,3 +198,13 @@ footer>button {
     font-weight: 500;
     font-size: x-large;
 }
+
+.transmitModal {
+    background: white;
+    border: #eee solid 1px;
+    border-radius: 10px;
+}
+
+.transmitModal > button {
+    margin: 10px;
+}
