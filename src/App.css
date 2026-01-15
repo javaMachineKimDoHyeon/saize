@@ -52,14 +52,14 @@ header {
 }
 
 footer {
-    background-image: linear-gradient(to right, #1f9228, #21912a);
+    background: radial-gradient( #1e932b, #21912a);
 
     margin-top: auto;
 }
 /* --푸터5개버튼-- */
 footer>button {
-    background: #eee;
-    height: 55px;
+    background: radial-gradient(#ffffff, #c7cbc6);
+    height: 50px;
     width: 60px;
     margin: 5px;
     border-radius: 5px;
@@ -67,6 +67,7 @@ footer>button {
     font-size: large;
     font-weight: bold;
     color: gray;
+    line-height: 1.15;
 }
 /* --인원수페이지------ */
 .peopleBtnCenter {
@@ -78,7 +79,7 @@ footer>button {
 }
 
 .peopleBtn {
-    background: #eee;
+    background-image: linear-gradient(#fefefe, #e3e3e3 50%);
     height: 120px;
     width: 100px;
     margin: 10px;
@@ -101,7 +102,7 @@ footer>button {
 
 
 .orderBtn {
-    background: #eee;
+    background-image: linear-gradient(#fefefe, #e3e3e3 50%);
     height: 45px;
     width: 100px;
     margin: 2px;
