@@ -11,7 +11,7 @@ function Basket() {
             <div className="basketDetail">合計 600円 (税込)</div>
             <div>
                 <button className="basketBtn">追　加</button>
-                <button className="basketBtn" style={{ background: '#bf261b' }}>注　文</button>
+                <button className="basketBtn2">注　文</button>
             </div>
         </div>
     )

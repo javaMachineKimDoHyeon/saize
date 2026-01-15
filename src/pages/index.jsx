@@ -3,3 +3,4 @@ export { default as Start } from './Start.jsx';
 export { default as NumberOfPeople } from './NumberOfPeople.jsx';
 export { default as OrderDetails } from './OrderDetails.jsx';
 export { default as Basket } from './Basket.jsx'
+export { default as OrderHistory } from './OrderHistory.jsx'

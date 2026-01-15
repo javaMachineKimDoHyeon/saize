@@ -32,13 +32,14 @@ header {
 }
 /* --주문하기 버튼-- */
 .startBtn {
-    background: #bf261b;
+    background-image: linear-gradient(#ff9794, #cc0001 50%); 
+    /* 그라데이션 주는 거임 */
     color: #eee;
     height: 60px;
     width: 250px;
     font-size: x-large;
     border-radius: 10px;
-    border: none;
+    border: #b30805 solid 2px;
     justify-content: center;
 }
 
@@ -51,7 +52,7 @@ header {
 }
 
 footer {
-    background: #2eab20;
+    background-image: linear-gradient(to right, #1f9228, #21912a);
 
     margin-top: auto;
 }
@@ -111,11 +112,24 @@ footer>button {
 }
 
 .orderDelBtn {
-    background: #2eab20;
+    background-image: linear-gradient(#ff9794, #cc0001 50%);
     height: 45px;
     width: 100px;
     margin: 2px;
     border-radius: 10px;
+    border: #b30805 solid 2px;
+    color: #eee;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.orderOKBtn {
+    background-image: linear-gradient(#5efa99, #0ba545 50%);
+    height: 45px;
+    width: 100px;
+    margin: 2px;
+    border-radius: 10px;
+    border: #129c49 solid 2px;
     color: #eee;
     font-weight: bold;
     font-size: x-large;
@@ -146,9 +160,10 @@ footer>button {
 .detailsBtn {
     width: 80px;
     height: 50px;
-    background: #2eab20;
+    background-image: linear-gradient(#5efa99, #0ba545 50%);
     color: #eee;
     border-radius: 15%;
+    border: #129c49 soild 2px;
     font-weight: bold;
     font-size: large;
     margin: 10px;
@@ -157,14 +172,17 @@ footer>button {
 .detailsBtn2 {
     width: 180px;
     height: 50px;
-    background: #bf261b;
+    background-image: linear-gradient(#ff9794, #cc0001 50%);
     color: #eee;
     border-radius: 10%;
+    border: #b30805 solid 2px;
     font-weight: bold;
     font-size: large;
 }
 
 /* --주문상세 페이지------ */
+
+/* 장바구니 페이지 */
 
 .itemBoxList {
     background: #eee;
@@ -184,13 +202,26 @@ footer>button {
 
 .basketBtn {
     border-radius: 10px;
+    border: #129c49 solid 2px;
     width: 150px;
     height: 50px;
     margin: 10px;
     color: #eee;
     font-weight: bold;
     font-size: larger;
-    background: #2eab20;
+    background-image: linear-gradient(#5efa99, #0ba545 50%);
+}
+
+.basketBtn2 {
+    border-radius: 10px;
+    border: #b30805 solid 2px;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    color: #eee;
+    font-weight: bold;
+    font-size: larger;
+    background-image: linear-gradient(#ff9794, #cc0001 50%);
 }
 
 .item {
@@ -207,4 +238,16 @@ footer>button {
 
 .transmitModal > button {
     margin: 10px;
+}
+
+/* 장바구니 페이지 */
+
+.itemBoxList2 {
+    background: #eee;
+    border: #2eab20 solid 1px;
+    border-radius: 10px;
+    width: 320px;
+    height: 380px;
+    margin: auto;
+    overflow: auto;
 }

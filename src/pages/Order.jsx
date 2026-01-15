@@ -23,9 +23,9 @@ function Order() {
                     <button className='orderBtn'>9</button>
                 </div>
                 <div>
-                    <button className='orderDelBtn' style={{background : '#bf261b'}}>削除</button>
+                    <button className='orderDelBtn'>削除</button>
                     <button className='orderBtn'>0</button>
-                    <button className='orderDelBtn'>確認</button>
+                    <button className='orderOKBtn'>確認</button>
                 </div>
             </div>
 
