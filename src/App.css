@@ -53,7 +53,7 @@ header {
 
 footer {
     background: radial-gradient( #1e932b, #21912a);
-
+    /* 원형 그라데이션임 */
     margin-top: auto;
 }
 /* --푸터5개버튼-- */
