@@ -252,3 +252,15 @@ footer>button {
     margin: auto;
     overflow: auto;
 }
+
+/* 장바구니 페이지 */
+
+/* 주문 이력 페이지 */
+
+table > th {
+    background: gray;
+}
+
+table > tr {
+    background: white;
+}
